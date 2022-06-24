@@ -1,0 +1,348 @@
+/* footer styles */
+
+@media screen and (min-width: 1490px){
+	.marginp{
+	max-width: 1440px;
+	margin: 0 auto !important;
+	display: block !important;
+}
+}
+
+footer{
+	/*background-color:#FFAFB6 ;*/
+	background-color: #e85992;
+	padding: 25px 0 13px;
+	color: white;
+}
+
+.footer-s1{
+	/*border:  1px solid red;*/
+	display: flex;
+	justify-content: space-between;
+	padding: 0 50px 50px;
+	flex-wrap: wrap;
+}
+
+.footer-p{
+	/*border: 1px solid red;*/
+}
+
+.footer-logo{
+	height: 100px;
+	width: 250px;
+	/*margin-bottom: 25px;*/
+	display: block;
+	margin: 0 auto 25px;
+
+}
+
+.footer-logo img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+
+
+.footer-s2{
+	/*border:  1px solid green;*/
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 50px 0;
+}
+
+
+.footer-socials{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-socials p{
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.footer-socials div{
+	border: 1px solid white;
+	border-radius: 3px;
+	display: flex;
+	padding: 8px;
+	cursor: pointer;
+
+}
+
+.footer-s1-p{
+	/*border:  1px solid blue;*/
+
+}
+
+.footer-head{
+	padding: 20px 0 15px;
+	font-size: 18px;
+}
+
+.footer-s1-p a{
+	/*border:  1px solid red;*/
+	display: block;
+	padding: 5px 0;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.footer-email{
+	margin-top: 16px;
+}
+
+.footer-s2 p{
+	font-size: 13.33px;
+}
+
+.footers2-div{
+	display: flex;
+	/*border: 1px solid red;*/
+	margin: 25px 0px;
+	
+}
+
+.footers2-div1{
+	display: flex;
+	/*border: 1px solid red;*/
+	padding-top: 10px;
+	margin: 25px 0px;
+}
+.footers2-div div{
+	
+	display: flex;
+	margin-right: 20px;
+	
+	/*border: 1px solid yellow;*/
+
+}
+
+.footers2-div p{
+	/*border:  1px solid green;*/
+	padding-top: 12px;
+}
+
+.footers2-div div img{
+	object-fit: contain;
+
+	width: 109px;
+	height: 36px;
+}
+
+.footer-india{
+	margin-left: 25px;
+
+}
+
+
+
+.footer-india div{
+	display: flex;
+}
+
+.foot-ind p{
+	margin-right: 5px;
+}
+
+.foot-ind img{
+	cursor: pointer;
+}
+
+.foot-hide{
+	display: none !important;
+}
+
+.footer-small{
+	display: none;
+}
+
+	select{
+		border: none;
+		background-color: #e85992;
+		color: white;
+	}
+	select ,option{
+		font-size: 12px !important;
+	}
+
+
+
+/***************** medium screens (989px below) *******************/
+
+@media screen and (max-width: 989px){
+
+	.footer-p{
+	/*border: 1px solid red;*/
+	width: 50%;
+	margin-bottom: 100px !important;
+}
+.first{
+	/*border: 1px solid green;*/
+	margin-bottom: 100px !important;
+}
+
+.footer-s1-p{
+	width: 45%;
+}
+
+.footer-head{
+	
+	font-size: 12px !important;
+}
+
+.footer-s1-p a{
+	
+	padding: 10px 0 !important;
+	
+}
+}
+
+
+
+
+/***************** medium screens (749px below) *******************/
+
+@media screen and (max-width: 749px){
+	.footer-s1{
+		display: none !important;
+	}
+
+	.footer-s2{
+		display: none !important;
+	}
+
+	.footer-small{
+		display: block;
+		margin: 0 20px;
+	}
+
+	.footer-p{
+		display: block;
+		margin: auto;
+		width: 250px !important;
+	}
+
+	.footer-logo{
+		margin-bottom: 0 !important;
+	}
+
+	.footer-s-p2{
+		/*border: 1px solid green;*/
+	}
+
+	.fh-line{
+		/*height: 1px;*/
+		border-top: 1.5px solid white;
+		/*background-color: white;*/
+		width: 100%;
+		border-radius: 5px;
+		margin: 20px 0;
+
+	}
+
+
+	.nav-head a{
+		font-size: 12px;
+		color: white;
+		
+		text-decoration: none;
+	}
+
+	.nav-h-show{
+		display: flex;
+		justify-content: space-between;
+	}
+
+
+	.nav-h-show p{
+		font-size: 12px;
+		color: white;
+	}
+
+	.nav-h-show img{
+		/*border: 1px solid red;*/
+	}
+
+	.img-active{
+		transform: rotate(180deg);
+	}
+
+	.nav-hidden{
+		display: none;
+		
+	}
+	.nh-active{
+		display: block;
+		transition: transform .3s ease-in-out;
+	}
+
+	.nav-hidden a, .nav-hidden p{
+		display: block;
+		color: white;
+		text-decoration: none;
+		font-size: 12px;
+		margin: 10px 0;
+	}
+
+	.footers2-div{
+		width: fit-content;
+		margin: auto;
+		/*border: 1px solid green;*/
+
+		flex-direction: column-reverse;
+	}
+
+	.footers2-div div{
+		margin: 0;
+	}
+
+	.phone-stores{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.phone-stores div{
+		margin: 0;
+	}
+
+
+
+	.vent{
+		margin: 0;
+	}
+	.footers2-div p{
+		font-size: 13.33px;
+		width:100%;
+		/*width: fit-content;*/
+		/*border: 1px solid red;*/
+		margin: 0 30px 20px 30px;
+		text-align: center;
+	}
+
+
+
+	.footers2-div1{
+		display: flex;
+		justify-content: space-between;
+		margin: 0;
+	}
+
+	.footers2-div1 p{
+		font-size: 8.33px;
+	}
+
+	select{
+		border: none;
+		background-color: #e85992;
+		color: white;
+	}
+	select ,option{
+		font-size: 10px !important;
+	}
+
+
+
+}
